@@ -1,36 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Personal Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
-      type="text/css"
-    />
+    <title>Dev Profile</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Welcome to My Page</h1>
+      <div class="hero">
+        <div class="hero-container">
+          <p>Hello, world!</p>
+          <pre> Karl Harper</pre>
+          <p>Web Developer | UX designer</p>
+          <a href="#contact">Get in touch</a>
+        </div>
+      </div>
     </header>
+    <!-------------------------------------------------------------------------->
     <main>
-      <section>
-        <h2>About Me</h2>
-        <p>Hello, World! I love coding. I am here to learn CSS.</p>
+      <section class="about">
+        <div class="about-container">
+          <div class="about-text">
+            <h2 class="section-title">Who am I ?</h2>
+            <p>
+              I am a full-stack web developer with over 5 years of experience. I
+              have a passion for building high-quality, user-friendly web
+              applications. I am also a strong advocate for open source software
+              and continuous learning. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. <br />
+              Aliquam deleniti molestias ratione. Repellat, sunt possimus quas
+              ullam sequi tempore architecto veritatis quod officia quaerat
+              rerum voluptatum corporis facilis eveniet enim?Lorem ipsum dolor,
+              sit amet consectetur adipisicing elit. Quasi culpa eum explicabo
+              odio! Deleniti assumenda optio quam exercitationem unde minus
+              culpa nulla est nobis, alias numquam! Eaque assumenda sit omnis.
+            </p>
+          </div>
+          <div class="about-list">
+            <div class="about-list__1">
+              <h3>Languages I know</h3>
+              <p>HTML, CSS , JavaScript</p>
+              <h3>Dev Tools I use</h3>
+              <ul>
+                <li>VS Code</li>
+                <li>Git</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="about-list__2">
+              <h3>My design Expertise</h3>
+              <p>UI/UX, User Research , User Feedback</p>
+              <h3>Design Tools I use</h3>
+              <ul>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Sketch</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>My Interests</h2>
-        <ul>
-          <li>Music</li>
-          <li>Writing</li>
-          <li>Painting</li>
-        </ul>
+
+      <!------------------------------------------------------------------>
+
+      <section class="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <article class="project_1">
+          <img
+            src="https://media.wired.com/photos/5d2c0feed25a5400091dfabb/master/w_1600%2Cc_limit/Gear-Twitter-Side-navigation-Expanded-Home-gb.jpg"
+          />
+          <div>
+            <h4>Twitter Clone</h4>
+            <p>A clone of popular social media Twitter</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Material</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project_2">
+          <img
+            src="https://dqy38fnwh4fqs.cloudfront.net/UHA9RPQP9KNDERECK8AAGNGMK7PG/projects/Myntra-Website-Clone.webp"
+          />
+          <div>
+            <h4>Shopping Cart</h4>
+            <p>A shopping cart static site</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Material</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <!------------------------------------------------------------------>
+      <section class="experience">
+        <h2 class="section-title">Over the Years</h2>
+        <div class="container-experience">
+          <ul>
+            <li>
+              <time>Feb 2022 - 2023</time>
+              <h3>UX Engineer</h3>
+              <p>Crafting prototypes raning from production to experiments.</p>
+            </li>
+            <li>
+              <time>Dec 2018 - Jan 2022</time>
+              <h3>Web Developer</h3>
+              <p>Creating web application for vaying business solutions</p>
+            </li>
+            <li>
+              <time>July 2017 - Aug 2017</time>
+              <h3>Software Engineer</h3>
+              <p>Designed Pricing module of finance app.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!------------------------------------------------------------------->
+
+      <section class="contact">
+        <h2 class="section-title">Connect</h2>
+        <div class="container-contact">
+          <h3>Phone Number</h3>
+          <a>+91-9898989898</a>
+          <h3>Email</h3>
+          <a href="mailto:kharper@example.com">kharper@example.com</a>
+          <h3>Social</h3>
+          <ul>
+            <li><a href="https://instagram.com/example">Instagram</a></li>
+            <li><a href="https://twitter.com/example">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/example">LinkedIn</a></li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>2023 My Page. All rights reserved.</p>
+    <!-------------------------------------------------------------------->
+    <footer class="flex-justify-center">
+      <p>&copy; 2023 Karl Harper Profile. All rights reserved.</p>
     </footer>
   </body>
 </html>
